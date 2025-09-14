@@ -54,52 +54,8 @@ export default function Navbar() {
         <HelpCircle className="h-5 w-5 text-foreground" />
       </Button>
 
-      {/* Dashboard */}
-      <Button
-        variant="ghost"
-        size="sm"
-        className="p-2 hover:bg-accent hover:shadow-md hover:scale-105 transition-all duration-200"
-      >
-        <LayoutDashboard className="h-5 w-5 text-foreground" />
-      </Button>
-
-      {/* Messages */}
-      <Button
-        variant="ghost"
-        size="sm"
-        className="p-2 hover:bg-accent hover:shadow-md hover:scale-105 transition-all duration-200"
-      >
-        <MessageSquare className="h-5 w-5 text-foreground" />
-      </Button>
-
-      {/* Settings */}
-      <Button
-        variant="ghost"
-        size="sm"
-        className="p-2 hover:bg-accent hover:shadow-md hover:scale-105 transition-all duration-200"
-      >
-        <Settings className="h-5 w-5 text-foreground" />
-      </Button>
-
-      {/* Notifications */}
-      <Button
-        variant="ghost"
-        size="sm"
-        className="p-2 hover:bg-accent hover:shadow-md hover:scale-105 transition-all duration-200"
-      >
-        <Bell className="h-5 w-5 text-foreground" />
-      </Button>
-
-      {/* Profile dropdown */}
-      <div className="flex items-center space-x-1">
-        <Button
-          variant="ghost"
-          size="sm"
-          className="p-2 hover:bg-accent hover:shadow-md hover:scale-105 transition-all duration-200"
-        >
-          <User className="h-5 w-5 text-foreground" />
-        </Button>
-     
+      
+      
       </div>
 
     </nav>
