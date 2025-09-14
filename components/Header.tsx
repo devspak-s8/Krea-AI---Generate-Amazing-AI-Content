@@ -10,8 +10,8 @@ export default function Header() {
 <header className="py-4 relative">
   <div className="max-w-full px-12 sm:px-6 lg:px-12 flex items-center justify-between relative z-10">
     {/* Left: Logo */}
-    <div className="flex-1 flex items-center">
-      <img src="/logo.png" alt="Logo" className="h-10 w-auto" />
+    <div className="flex-1 flex items-center text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+      Krea AI
     </div>
 
     {/* Center: Navbar */}
